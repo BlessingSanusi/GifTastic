@@ -4,4 +4,4 @@
 
 # Check the Demo here: https://blessingsanusi.github.io/GifTastic/.
 
-![alt text](https://github.com/BlessingSanusi/Word-Guess-Game/blob/master/assets/images/appScreenshot.png)
+![alt text]https://github.com/BlessingSanusi/GifTastic/blob/master/assets/images/Screenshot.png
