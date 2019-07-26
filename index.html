@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <h1 class="text-center">Basketballers Gifs</h1>
+    <br><br>
+    <div id="basketballersBtn"></div>
+    <br><br>
+    <div class="container">
+            <form id="basketballers-form">
+                    <label for="basketballers-input">Add Your Favorite Basketballer:</label>
+                    <input type="text" id="basketballersInput">
+                    <br><br>
+            
+                    <input id="add-bsker" class="btn btn-primary" type="submit" value="Submit">
+                </form>
+    </div>
+  
+    <div id="basketballersGifs"class="grid-container">
+        </div>
+
+            <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+            <!-- <script>
+                    //init masonry grid 
+                  $(window).on("load", function() {
+                      $('#basketballersGifs').masonry({
+                      itemSelector: '.gif'
+                    });
+                  });
+                  
+                  </script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+</body>
+</html>
+
